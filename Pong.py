@@ -212,13 +212,13 @@ while True:
         play_victory()
         screen.fill(player_color)
         endscreen = winning_font.render("Player 1 won!!", True, ball_color)
-        screen.blit(endscreen, (200, 250))
+        screen.blit(endscreen, (610, 470))
     
     if player_2_score >= 3:
         play_victory()
         screen.fill(player_color)
-        endscreen = winning_font.render("Player 1 won!!", True, ball_color)
-        screen.blit(endscreen, (200, 250))
+        endscreen = winning_font.render("Player 2 won!!", True, ball_color)
+        screen.blit(endscreen, (610, 470))
 
 
     #update the window
